@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install -y \
     libproj-dev \
     pkg-config \
     gettext \
+    build-essential \
   && rm -rf /var/lib/apt/lists/*
-  
