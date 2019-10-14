@@ -1,0 +1,28 @@
+autopep8==1.4.4
+bandit==1.5.1
+black==19.3b0
+Django==2.2.5
+django-cors-headers==3.0.2
+django-debug-toolbar==1.11
+django-filter==2.1.0
+django-extensions==2.2.1
+django-rest-swagger==2.1.2
+django-rosetta==0.9.3
+djangorestframework==3.10.3
+djangorestframework-simplejwt==4.3.0
+factory-boy==2.12.0
+flake8==3.6.0
+gunicorn==19.9.0
+pre-commit==1.18.3
+psycopg2-binary==2.8.3
+# para que pygraphviz funcione es necesario instalar
+# algunas dependencias
+# este paquete tiene problemas de compilación en Windows y es necesario
+# descargar el archivo ya compilado .whl
+# apt-get update && apt-get install -y graphviz libgraphviz-dev pkg-config
+pygraphviz==1.5
+pylint==2.3.1
+pylint-django==2.0.9
+radon==4.0.0
+Sphinx==2.1.0
+sphinx-rtd-theme==0.4.3
