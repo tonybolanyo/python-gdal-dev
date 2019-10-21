@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     gettext \
     build-essential \
+    nmap \
   && rm -rf /var/lib/apt/lists/*
 
 ADD ./requirements.txt /
